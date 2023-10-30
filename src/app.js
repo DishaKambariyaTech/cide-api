@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static("public"));
 
 app.get("/test", (_req, res) => {
-  res.status(200).send("Welcome to out productss");
+  res.status(200).send("Welcome to out products");
 });
 
 app.get("/", (req, res) => {
